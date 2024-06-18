@@ -7,4 +7,4 @@ if __name__ == '__main__':
     # is_debug = True
     # if environment == 'production':
     #     is_debug = False
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
